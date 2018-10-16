@@ -1,0 +1,88 @@
+html,
+body,
+.container {
+    height: 100%;
+}
+
+div.container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    background: #f0f0f0;
+}
+
+div.header {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    height: 40px;
+    left: 0;
+    top: 0;
+    background: #D8505C;
+}
+
+
+/* 主体区域 */
+
+div.main {
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 主体左侧区域 */
+
+div.main aside.left {
+    float: left;
+    width: 100px;
+    height: 100%;
+}
+
+div.main aside.left ul {
+    overflow: hidden;
+}
+
+div.main aside.left ul li {
+    line-height: 3em;
+    text-align: center;
+    border-bottom: 1px solid #C0C0C0;
+    border-right: 1px solid #C0C0C0;
+}
+
+div.main aside.left ul li.now {
+    border-right: none;
+}
+
+div.main aside.left ul li a {
+    display: block;
+}
+
+
+/* 右侧主体区 */
+
+aside.right {
+    overflow: hidden;
+    height: 100%;
+    padding-left: 10px;
+}
+
+aside.right div.box {
+    width: 200%;
+    overflow: hidden;
+}
+
+.right ul {
+    width: 100%;
+}
+
+.right ul li {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.right ul li img {
+    margin: 0 auto;
+}
